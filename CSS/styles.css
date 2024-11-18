@@ -1,0 +1,103 @@
+.firstText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+}
+
+.firstText h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.firstText h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.meInfo{
+    display: flex;
+    background-color: #1F4529;
+    gap: 20px;
+    padding: 40px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.Education, .Experience {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #000000;
+    background-color: #000000;
+}
+
+.EdEx {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.Education {
+    border-radius: 25px;
+    border: 2px solid #B7B7B7;
+    text-align: left;
+    color: rgb(255, 249, 249);
+    background-color: #B7B7B7;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.Experience {
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.AboutMe{
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.Projects{
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.Resume{
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.ContactMe{
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
