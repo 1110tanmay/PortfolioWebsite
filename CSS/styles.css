@@ -32,7 +32,6 @@ body {
 /* About Me Section */
 .meInfo {
     display: flex;
-    width: 100%;
     padding: 20px;
     background-color: #1F4529;
     color: #ffffff;
@@ -44,7 +43,6 @@ body {
 .EdEx {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     padding: 20px;
     gap: 20px;
     background-color: #333333;
