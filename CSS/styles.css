@@ -6,6 +6,9 @@ body {
     box-sizing: border-box;
 }
 
+.mainBody{
+    background-color: #f0f0f0;
+}
 /* Main Text Section */
 .firstText {
     display: flex;
@@ -28,11 +31,28 @@ body {
     font-size: 2rem;
     margin: 0;
 }
-
+#horButton{
+    margin-top: 20px;
+    background-color: #4CAF50; /* Green background */
+    border: none; /* No border */
+    color: white; /* White text color */
+    padding: 15px 32px; /* Padding around the text */
+    text-align: center; /* Center the text inside the button */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow multiple buttons in a row */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s;
+}
+#horButton:hover
+{
+    background-color: #45a049; /* Darker green when hovered */
+}
 /* About Me Section */
 .meInfo {
-    display: flex;
     padding: 20px;
+    display: flex;
     background-color: #1F4529;
     color: #ffffff;
     font-weight: 400;
@@ -45,7 +65,7 @@ body {
     flex-wrap: wrap;
     padding: 20px;
     gap: 20px;
-    background-color: #333333;
+    background-color: #47663B;
 }
 
 .Education, .Experience {
@@ -65,52 +85,39 @@ body {
 
 /* About Me Section */
 .AboutMe {
-    width: 100%;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f5f5f5;
+    background-color: #E8ECD7;
     color: #000000;
     text-align: center;
-    margin-top: 20px;
+    
 }
 
 /* Projects Section */
 .Projects {
-    width: 100%;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f5f5f5;
+    background-color: #E8ECD7;
     color: #000000;
     text-align: center;
-    margin-top: 20px;
 }
 
 /* Resume Section */
 .Resume {
-    width: 100%;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f5f5f5;
+    background-color: #E8ECD7;
     color: #000000;
     text-align: center;
-    margin-top: 20px;
 }
 
 /* Contact Me Section */
 .ContactMe {
-    width: 100%;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f5f5f5;
-    color: #000000;
+    background-color: #1A1A19;
+    color: #fff9f9;
     text-align: center;
-    margin-top: 20px;
-}
-
-/* Universal Styles for Links and Lists */
-a {
-    color: #007BFF;
-    text-decoration: none;
 }
 
 a:hover {
