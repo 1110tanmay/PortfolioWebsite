@@ -132,3 +132,15 @@ ul {
 li {
     margin: 5px 0;
 }
+
+/* Work experience specific template*/
+
+.zocdocEx{
+    padding: 20px;
+    background-color: #FFF5E1;
+}
+
+#zdHead{
+    background-color: #FFF5E1;
+    padding: 20px;
+}
