@@ -110,6 +110,24 @@ body {
     color: #000000;
     text-align: center;
 }
+#resumeButton{
+    margin-top: 20px;
+    background-color: #7c7e77; /* Green background */
+    border: none; /* No border */
+    color: white; /* White text color */
+    padding: 15px 32px; /* Padding around the text */
+    text-align: center; /* Center the text inside the button */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow multiple buttons in a row */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s;
+}
+
+#resumeButton:hover{
+    background-color: #bbc3bb;
+}
 
 /* Contact Me Section */
 .ContactMe {
@@ -138,9 +156,5 @@ li {
 .zocdocEx{
     padding: 20px;
     background-color: #FFF5E1;
-}
-
-#zdHead{
-    background-color: #FFF5E1;
-    padding: 20px;
+    font-family: "Montserrat", sans-serif;
 }
