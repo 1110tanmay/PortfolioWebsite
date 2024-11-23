@@ -51,11 +51,11 @@ body {
 }
 /* About Me Section */
 .meInfo {
-    padding: 20px;
+    padding: 100px;
     display: flex;
     background-color: #1F4529;
-    color: #ffffff;
-    font-weight: 400;
+    color: #000000;
+    font-weight: 200;
     text-align: justify;
 }
 
@@ -63,7 +63,7 @@ body {
 .EdEx {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 50px;
     gap: 20px;
     background-color: #47663B;
 }
@@ -85,11 +85,11 @@ body {
 
 /* About Me Section */
 .AboutMe {
-    padding: 20px;
+    padding: 100px;
     border-radius: 10px;
+    font-size: larger;
     background-color: #E8ECD7;
     color: #000000;
-    text-align: center;
     
 }
 
@@ -112,7 +112,7 @@ body {
 }
 #resumeButton{
     margin-top: 20px;
-    background-color: #7c7e77; /* Green background */
+    background-color: #4CAF50; /* Green background */
     border: none; /* No border */
     color: white; /* White text color */
     padding: 15px 32px; /* Padding around the text */
@@ -126,7 +126,7 @@ body {
 }
 
 #resumeButton:hover{
-    background-color: #bbc3bb;
+    background-color: #3e9241;
 }
 
 /* Contact Me Section */
