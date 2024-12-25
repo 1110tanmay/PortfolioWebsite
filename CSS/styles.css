@@ -102,6 +102,13 @@ body {
     text-align: center;
 }
 
+.project-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row if space is limited */
+    gap: 20px; /* Add spacing between project items */
+    justify-content: center; /* Center the items in the container */
+  }
+
 /* Resume Section */
 .Resume {
     padding: 20px;
