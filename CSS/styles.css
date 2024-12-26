@@ -131,7 +131,12 @@ body {
     border-radius: 8px; /* Rounded corners */
     transition: background-color 0.3s;
 }
-
+.contactme-container{
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next row if space is limited */
+    gap: 20px; /* Add spacing between project items */
+    justify-content: center; /* Center the items in the container */
+}
 #resumeButton:hover{
     background-color: #3e9241;
 }
@@ -143,6 +148,10 @@ body {
     background-color: #1A1A19;
     color: #fff9f9;
     text-align: center;
+}
+
+#aboutMeHeading{
+     text-align: center;   
 }
 
 a:hover {
